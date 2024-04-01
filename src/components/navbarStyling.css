@@ -19,7 +19,8 @@
 .nav-menuA {
   display: flex;
   align-items: flex-end;
-  gap: 5rem;
+  gap: 8rem;
+  padding-right: 9rem;
 
 }
 
@@ -75,6 +76,7 @@
     height: 100vh;
     position: absolute;
     top: 0;
+    padding-right: 0;
     left: -100%;
     z-index: -3;
     transition: 0.3s;
@@ -136,6 +138,7 @@
     left: -100%;
     z-index: -3;
     transition: 0.3s;
+    padding-right: 0;
 
   }
 
