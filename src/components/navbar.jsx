@@ -5,7 +5,7 @@ import { FaBars } from "react-icons/fa"
 import { FaTimes } from 'react-icons/fa'
 import { FaRegMoon } from "react-icons/fa";
 import { FaRegSun } from "react-icons/fa";
-
+import logo from '../../Assets/Logo2.jpg'
 
 import React, { useState } from "react"
 
@@ -26,7 +26,7 @@ const navbar = () => {
     <div className="navbarA">
       <Link to={"/"}>
         <div className='navbar-logo'>
-          <img src='Assets/Logo2.jpg' />
+          <img src={logo} />
         </div> </Link>
       <ul className={display ? "nav-menuA" : "nav-menuA unactive"}>
         <Link to={"/"}><li>HOME</li></Link>
