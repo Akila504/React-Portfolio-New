@@ -26,7 +26,7 @@ const navbar = () => {
     <div className="navbarA">
       <Link to={"/"}>
         <div className='navbar-logo'>
-          <img src='./Assets/logo2.jpg' />
+          <img src='Assets/Logo2.jpg' />
         </div> </Link>
       <ul className={display ? "nav-menuA" : "nav-menuA unactive"}>
         <Link to={"/"}><li>HOME</li></Link>
